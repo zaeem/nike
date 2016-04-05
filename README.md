@@ -30,6 +30,10 @@ Initialize the client
 
     $ c = Nike::Client.new('your_email', 'your_password')
 
+Valid Acount
+
+    $ = c.valid_account?
+
 A summary of all activities by type (type is :run by default)
 
     $ c.activities                      # get all runs
